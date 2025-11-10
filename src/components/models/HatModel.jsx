@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const HatModel = React.memo(function HatModel(props) {
-  const { nodes, materials } = useGLTF('/models6/ok.glb')
+  const { nodes, materials } = useGLTF('/models/ok.glb')
   return (
   
 
@@ -629,4 +629,4 @@ const HatModel = React.memo(function HatModel(props) {
 });
 
 export default HatModel;
-useGLTF.preload('/models6/ok.glb')
+useGLTF.preload('/models/ok.glb')
